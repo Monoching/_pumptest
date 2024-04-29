@@ -1,0 +1,30 @@
+{
+    "name": "_pumptest",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.5",
+        "pxt-calliope-buttons": "github:mkleinsb/pxt-calliope-buttons#v0.1.0",
+        "TouchKit": "github:tinysuperlab/touchkit#63db8163ac919110724531f71499a212aba0394c",
+        "pxt-serialmp3": "github:mkleinsb/pxt-serialmp3#v0.0.8",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
